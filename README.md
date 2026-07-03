@@ -36,6 +36,11 @@ This folder contains the core implementation of the **CVLM (Computer Vision Leaf
 
 ---
 
+## Download model weights
+The model weights can be downloaded via the following Baidu Netdisk link:
+https://pan.baidu.com/s/1y3nTgbsv09OscP0kXxbKug?pwd=itbk
+ (access code: itbk).
+
 ## Citation
 
 If you use this code or data in your research, please cite the corresponding paper.
