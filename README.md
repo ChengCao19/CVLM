@@ -28,7 +28,11 @@ This folder houses the scripts used for model training, statistical data analysi
 Corresponding outputs are organized under subfolders matching the figure names (e.g., `Figure_4`, `Figure_6`, `Figure_8`, `Figure_9`, `Figure_10`, `Supplementary Figure 1`).
 
 ### A03_CVLM_framework
-This folder contains the core implementation of the **CVLM (Computer Vision Leaf Movement)** framework — the main computer vision pipeline for automated detection, tracking, and spatiotemporal characterization of cotton leaf diurnal movement under field conditions.
+This folder contains the core implementation of the **CVLM (Computer Vision Leaf Movement)** framework and the associated trained model weights:
+
+- `SVDs_model` — Trained model weights for the SVDs
+- `TVDs_model` — Trained model weights for the TVDs
+- `CVLM` — The main CVLM source code
 
 ---
 
