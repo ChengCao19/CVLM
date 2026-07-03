@@ -28,11 +28,13 @@ This folder houses the scripts used for model training, statistical data analysi
 Corresponding outputs are organized under subfolders matching the figure names (e.g., `Figure_4`, `Figure_6`, `Figure_8`, `Figure_9`, `Figure_10`, `Supplementary Figure 1`).
 
 ### A03_CVLM_framework
-This folder contains the core implementation of the **CVLM (Computer Vision Leaf Movement)** framework and the associated trained model weights:
+This folder contains the core implementation of the **CVLM (Computer Vision Leaf Movement)** framework:
 
-- `SVDs_model` — Trained model weights for the SVDs
-- `TVDs_model` — Trained model weights for the TVDs
-- `CVLM` — The main CVLM source code
+- `CVLM_all` — The main CVLM source code, including Python scripts, `requirements.txt`, and module documentation
+- `SVDs_model` — Directory for trained model weights of the SVDs.
+- `TVDs_model` — Directory for trained model weights of the TVDs.
+
+> **Note:** Model weight files (`.pth`, `.pt`, `.ckpt`, etc.) are excluded from version control via `.gitignore` due to their large file size. Please download the pre-trained weights using the link below.
 
 ---
 
